@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "io.github.32bitx64bit.message-logger",
+  "name": "Message Logger",
+  "version": "1.0.0",
+  "api": 1,
+  "main": "main.lua",
+  "icon": "assets/icon.png",
+  "description": "Customizable deleted & edited message logger with native red timeline rows, in-message edit history, sandboxed disk/memory storage, and image/video archiving.",
+  "license": "MIT",
+  "platforms": ["linux", "macos", "windows", "android"],
+  "allowed_hosts": [
+    "cdn.discordapp.com",
+    "media.discordapp.net",
+    "images-ext-1.discordapp.net",
+    "images-ext-2.discordapp.net"
+  ],
+  "permissions": [
+    "events.navigation",
+    "ui.contextMenu",
+    "clipboard.write",
+    "storage",
+    "commands",
+    "events.messages",
+    "events.channels",
+    "store.read",
+    "navigation.write",
+    "ui.panel",
+    "ui.decorate",
+    "storage.files",
+    "network.http"
+  ],
+  "limits": {
+    "memory_bytes": 67108864,
+    "instructions": 100000000
+  }
+}
